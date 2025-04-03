@@ -23,18 +23,7 @@ cd fashion-mnist-api
 3. Run the API locally:(FastAPI Server)
    uvicorn app:app --reload
 
-4. open in browser:
-   http://127.0.0.1:8000
-
-5. API Testing (Using CURL)
-   curl -X 'POST' \
-  'http://127.0.0.1:8000/predict' \
-  -u admin:password \
-  -H 'accept: application/json' \
-  -H 'Content-Type: multipart/form-data' \
-  -F 'file=@sample_image.jpg'
-
-6. In the end model predict the Image type
+5. In the end model predicted the Image type 
 
 
 
